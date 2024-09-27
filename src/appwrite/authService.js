@@ -13,6 +13,28 @@ export class AuthService {
             .setProject(config.appwriteProjectId);
         this.account = new Account(this.client);
     }
+
+
+
+    async Signup({name, email, password}) {
+        try {
+            const createUser = await this.account.create(
+                ID.unique(),
+                name,
+                email, 
+                password
+            );
+
+            if (createUser) {
+                authService.login({email, password})
+            }else{
+                return createUser
+            }
+        } catch (error) {
+            console.log("Appwrite serive :: Signup :: error", error);
+            throw error
+        }
+    }
 }
 
 
