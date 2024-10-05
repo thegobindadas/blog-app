@@ -8,6 +8,7 @@ import NavItem from "./Buttons/NavItem"
 import Header from "./Header/Header"
 
 import Register from "./Register/Register"
+import Login from "./Login/Login"
 
 
 import LogoIcon from "./icons/LogoIcon"
@@ -26,6 +27,7 @@ export {
     Header,
 
     Register,
+    Login,
 
 
     LogoIcon,
