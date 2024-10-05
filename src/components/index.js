@@ -1,5 +1,7 @@
 import Input from "./Inputs/Input"
 import Checkbox from "./Inputs/Checkbox"
+import ImgInput from "./Inputs/ImgInput"
+import Select from "./Inputs/Select"
 
 import Button from "./Buttons/Button"
 import NavItem from "./Buttons/NavItem"
@@ -22,6 +24,8 @@ import CancelIcon from "./icons/CancelIcon"
 export {
     Input,
     Checkbox,
+    ImgInput,
+    Select,
 
     NavItem, 
     Button,
