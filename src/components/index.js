@@ -10,6 +10,7 @@ import Register from "./Register/Register"
 import Login from "./Login/Login"
 import ForgotPassword from "./ForgotPassword/ForgotPassword"
 
+import Protected from "./AuthLayout/AuthLayout"
 import RTE from "./RTE/RTE"
 
 import LogoIcon from "./icons/LogoIcon"
@@ -31,6 +32,7 @@ export {
     Login,
     ForgotPassword,
 
+    Protected,
     RTE,
 
 
