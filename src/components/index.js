@@ -4,12 +4,13 @@ import Checkbox from "./Inputs/Checkbox"
 import Button from "./Buttons/Button"
 import NavItem from "./Buttons/NavItem"
 
-
 import Header from "./Header/Header"
 
 import Register from "./Register/Register"
 import Login from "./Login/Login"
 import ForgotPassword from "./ForgotPassword/ForgotPassword"
+
+import RTE from "./RTE/RTE"
 
 import LogoIcon from "./icons/LogoIcon"
 import CheckboxIcon from "./icons/CheckboxIcon"
@@ -29,6 +30,8 @@ export {
     Register,
     Login,
     ForgotPassword,
+
+    RTE,
 
 
     LogoIcon,
