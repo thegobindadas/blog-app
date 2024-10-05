@@ -19,7 +19,8 @@ import RTE from "./RTE/RTE"
 import LogoIcon from "./icons/LogoIcon"
 import CheckboxIcon from "./icons/CheckboxIcon"
 import CancelIcon from "./icons/CancelIcon"
-
+import InboxIcon from "./icons/InboxIcon"
+import PlusIcon from "./icons/PlusIcon"
 
 export {
     Input,
@@ -45,4 +46,6 @@ export {
     LogoIcon,
     CheckboxIcon,
     CancelIcon,
+    InboxIcon,
+    PlusIcon
 }
