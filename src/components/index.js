@@ -9,7 +9,7 @@ import Header from "./Header/Header"
 
 import Register from "./Register/Register"
 import Login from "./Login/Login"
-
+import ForgotPassword from "./ForgotPassword/ForgotPassword"
 
 import LogoIcon from "./icons/LogoIcon"
 import CheckboxIcon from "./icons/CheckboxIcon"
@@ -28,6 +28,7 @@ export {
 
     Register,
     Login,
+    ForgotPassword,
 
 
     LogoIcon,
