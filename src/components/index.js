@@ -11,6 +11,7 @@ import Login from "./Login/Login"
 import ForgotPassword from "./ForgotPassword/ForgotPassword"
 
 import Protected from "./AuthLayout/AuthLayout"
+import PostForm from "./PostForm/PostForm"
 import RTE from "./RTE/RTE"
 
 import LogoIcon from "./icons/LogoIcon"
@@ -33,6 +34,7 @@ export {
     ForgotPassword,
 
     Protected,
+    PostForm,
     RTE,
 
 
